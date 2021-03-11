@@ -315,12 +315,11 @@ $(function(){
     if (animation) {
 
       var text = $('#home .typer-title'),
-          textOne = "I'm a web developer and designer",
-          textTwo = "Girl with passion is unstoppable!",
-          textThree = "Let's work together";
+          textOne = "I'm a software developer",
+          textTwo = "Let's work together!",
 
           if (!!$.prototype.typer) {
-            text.typer([textOne,textTwo,textThree]);
+            text.typer([textOne,textTwo]);
           }
     }
 
