@@ -316,7 +316,7 @@ $(function(){
 
       var text = $('#home .typer-title'),
           textOne = "I'm a software developer",
-          textTwo = "Let's work together!",
+          textTwo = "Let's work together!";
 
           if (!!$.prototype.typer) {
             text.typer([textOne,textTwo]);
